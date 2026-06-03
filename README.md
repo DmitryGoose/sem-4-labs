@@ -41,18 +41,13 @@ npm run dev
 ```
 Сервер стартует на http://localhost:3000.
 
-Структура проекта
-src/index.js – точка входа
-
-src/routes/stocks.js – маршруты
-
-src/controllers/stocksController.js – обработчики
-
-src/services/stocksService.js – бизнес-логика
-
-src/services/fileService.js – работа с JSON
-
-src/data/stocks.json – хранилище
+## Структура проекта
+   - `src/index.js` – точка входа
+   - `src/routes/stocks.js` – маршруты
+   - `src/controllers/stocksController.js` – обработчики
+   - `src/services/stocksService.js` – бизнес-логика
+   - `src/services/fileService.js` – работа с JSON
+   - `src/data/stocks.json` – хранилище
 
 
 
@@ -140,6 +135,25 @@ npm run dev
    cd Lab3_Cards
    npm install
    npx webpack --config webpack.config.cjs
+   ```
+2. Скопировать dist/bundle.js и money.glb в finance-api/public/.
+3. Убедиться, что в public/index.html подключён bundle.js.
+4. Запустить сервер:
+   ```bash
+   cd finance-api
+   npm run dev
+   ```
+5. Открыть http://localhost:3000.
+
+## Структура проекта после интеграции
+- `finance-api/public/index.html` – точка входа
+- `finance-api/public/bundle.js` – собранный фронтенд
+- `finance-api/public/money.glb` – 3D-модель
+- `finance-api/src/` – API-логика
+
+## Примечание
+Исходный код фронтенда (модули) хранится в отдельной ветке lab6-cards-fetch-bundle, а собранный бандл – в ветке lab4-finance-api.
+
 
 
 
