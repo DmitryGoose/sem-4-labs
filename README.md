@@ -145,6 +145,9 @@ npm run dev
    ```
 5. Открыть http://localhost:3000.
 
+<img width="1823" height="916" alt="image" src="https://github.com/user-attachments/assets/2daae1e9-c9d8-4607-be73-08db20e788f7" />
+
+
 ## Структура проекта после интеграции
 - `finance-api/public/index.html` – точка входа
 - `finance-api/public/bundle.js` – собранный фронтенд
@@ -153,6 +156,8 @@ npm run dev
 
 ## Примечание
 Исходный код фронтенда (модули) хранится в отдельной ветке lab6-cards-fetch-bundle, а собранный бандл – в ветке lab4-finance-api.
+
+
 
 
 
