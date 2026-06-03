@@ -145,7 +145,11 @@ npm run dev
    ```
 5. Открыть http://localhost:3000.
 
-<img width="1823" height="916" alt="image" src="https://github.com/user-attachments/assets/2daae1e9-c9d8-4607-be73-08db20e788f7" />
+<img width="1872" height="976" alt="image" src="https://github.com/user-attachments/assets/dea212e6-af17-4835-9a5a-b14503b49513" />
+<img width="1713" height="534" alt="image" src="https://github.com/user-attachments/assets/204ead34-8b4f-4bc0-b0b9-88aee35da776" />
+<img width="1821" height="709" alt="image" src="https://github.com/user-attachments/assets/660fd268-32b0-4280-b92e-5b7236e12711" />
+
+
 
 
 ## Структура проекта после интеграции
