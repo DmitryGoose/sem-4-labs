@@ -34,7 +34,11 @@
 - `DELETE /stocks/1` – удаление
 
 ## Запуск
-
+```bash
+cd finance-api
+npm install
+npm run dev
+```
 
 
 
