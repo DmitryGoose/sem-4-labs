@@ -39,7 +39,20 @@ cd finance-api
 npm install
 npm run dev
 ```
+Сервер стартует на http://localhost:3000.
 
+Структура проекта
+src/index.js – точка входа
+
+src/routes/stocks.js – маршруты
+
+src/controllers/stocksController.js – обработчики
+
+src/services/stocksService.js – бизнес-логика
+
+src/services/fileService.js – работа с JSON
+
+src/data/stocks.json – хранилище
 
 
 
